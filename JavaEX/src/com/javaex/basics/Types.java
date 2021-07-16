@@ -9,11 +9,29 @@ public abstract class Types {
 	floatDoubleEx();
 	
 }
+	// 논리형 데이터 타입
+	private static void booleanEx( ) {
+		//1byte: true or false
+		// 조건 분기, 반복문 등에 확용 -> 중요
+		boolean b1= true;
+		boolean b2= false;
+		System.out.println(b1);
+		System.out.println(b2);
+		// 비교 연산, 논리 연산의 결과로 활용
+		int a= 7, b= 3;
+		
+		boolean result = a> b;
+		
+		System.out.println(result);
+		
+		
+		
+	}
     // 실수형 데이터 타입
 	private static void floatDoubleEx() {
 		// TODO Auto-generated method stub
 		
-	} 
+	
 	// float(4) < double(8)
 	   float floatVar= 3.14159F; // f or F
 	   double doubleVar= 3.14159; 
@@ -33,10 +51,10 @@ public abstract class Types {
 	   // 표현 범위 넓힌 것
 	   // 정밀 실수 처리에는 적합하지 않다.
 	   System.out.println(0.1*3);
+	}
 	
 	// 변수의 선언과 사용
-	private abstract void varEx(); {
-	} {
+	private static void varEx(); 
 		/* 변수의 식별자 규칙
 		 * 1.문자,숫자,$, _ 사용할 수 있다.
 		 * 2. 숫자로 시작할 수 없다.
@@ -60,7 +78,8 @@ public abstract class Types {
 	  int v1= v2= v3= 40;
 	  
 	  // 정수형 데이터 타임
-	  private static void integerEx();
+	  private static void integerEx() {
+	}
 	   // byte(1)< short(2) < int(4) <long(8)
 	      int intVar1, intVar2; // 선언
 	      intVar1 = 2021; // 초기회
