@@ -3,15 +3,33 @@ package com.javaex.basics;
 // 변수 예제.,
 //데티어 타임 예제
 public class Types {
+	static final int SPEED_LIMIT = 120;
 	public static void main(String[] args ) {
 	//   varEx(); 
 //	   integerEx();
 // floatDoubleEx();
 //booLeanEx();
-		charEx();
+//charEx();
+		constantEx();
 		
 	
 }
+	// 상수
+	private static void constantEx() {
+	final int SPEED_LIMIT = 120;
+		System.out.println("제한속도:" + SPEED_LIMIT);
+		
+		int limit = SPEED_LIMIT;
+		System.out.println("현재 도로의 제한속도는"+SPEED_LIMIT + "입니다");
+	    // 코드의 가독성과 코드의 변경이 용이해진다.
+//	SPEED_LIMIT = 160; //변경시도 불가
+	System.out.println("제한속도:" + SPEED_LIMIT);
+	
+	System.out.println("현재 도로의 제한속도는"+SPEED_LIMIT + "입니다");
+	
+	
+	} 
+	
 	//문자형데이터 타입
 	private static void charEx() {
 		char ch1= 'A';
