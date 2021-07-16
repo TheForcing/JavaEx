@@ -2,13 +2,31 @@ package com.javaex.basics;
 
 // 변수 예제.,
 //데티어 타임 예제
-public abstract class Types {
+public class Types {
 	public static void main(String[] args ) {
 	//   varEx(); 
 //	   integerEx();
-	floatDoubleEx();
+// floatDoubleEx();
+//booLeanEx();
+		charEx();
+		
 	
 }
+	//문자형데이터 타입
+	private static void charEx() {
+		char ch1= 'A';
+		char ch2= '한';
+		
+		System.out.println(ch1);
+		System.out.println(ch2);
+		
+		System.out.println(ch1 + ch2);
+		
+		String str= "A한";
+		System.out.println(str);
+		
+	}
+	
 	// 논리형 데이터 타입
 	private static void booleanEx( ) {
 		//1byte: true or false
@@ -54,7 +72,8 @@ public abstract class Types {
 	}
 	
 	// 변수의 선언과 사용
-	private static void varEx(); 
+	private static void varEx() {
+	 
 		/* 변수의 식별자 규칙
 		 * 1.문자,숫자,$, _ 사용할 수 있다.
 		 * 2. 숫자로 시작할 수 없다.
@@ -75,13 +94,14 @@ public abstract class Types {
 	  int v1= 10, v2= 20, v3= 30;
 	  
 	  // 여러 변수에 동일한 값을 할당
-	  int v1= v2= v3= 40;
-	  
+	  int v11= v2= v3= 40;
+	}
 	  // 정수형 데이터 타임
 	  private static void integerEx() {
-	}
+	
 	   // byte(1)< short(2) < int(4) <long(8)
-	      int intVar1, intVar2; // 선언
+	   int intVar1,intVar2;//선언
+	   
 	      intVar1 = 2021; // 초기회
 	   //   intVar2 = 12345678901; // out of range : 저장범위초과
 	  System.out.println(Integer.toBinaryString(intVar1));
