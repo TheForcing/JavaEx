@@ -91,7 +91,7 @@ public class OperatorEx {
 		   // num1<=0 || num1 >= 19
 		   boolean rnot= !(num1>0 && num1<10);
 		   System.out.println("num1가 0초과 , 10미만 이외의 값인가?" + rnot);
-		   
+	}
 		   //논리 연산자
 		   private static void bitOperEx(); {
 			   //하드웨어 제어, 이미지 처리 등
@@ -111,7 +111,7 @@ public class OperatorEx {
 		   
 		   result = b1 ^ b2; // 배타적 논리합
 	       System.out.println("b1^b2:" + Integer.toBinaryString(result));
-		   
+		   } 
 	    	   
 	    	// 비트 시프트 전산자
 	    	   private static void bitShhiftOperEx(); {
@@ -133,7 +133,7 @@ public class OperatorEx {
 	    	   System.out.println(Integer.toBinaryString(val));
 	    	   System.out.println(Integer.toBinaryString(val>>>1));
 	    	   
-	    	   
+	    	   }
 	    	   //3항 연산자
 	    	   private static void conditionalOperEx() {
 	    		   // 문법: 조건식 ? 참일 떄의 값 또는 식 : 거짓일 떄의 값또는 식;
