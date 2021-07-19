@@ -7,14 +7,15 @@ public class OperatorEx {
 	}
 
 	public static void main(String[] args) {
-		arithOperEx();
-
-	private static void logicOperEx() {
-		// TODO Auto-generated method stub
+		//arithOperEx();
 		bitShiftOperEx();
 	}
+	private static void LogicOperEx() {
+		// TODO Auto-generated method stub
+		
+	}
 	// 산술 연산
-	private static void arithOperEx() {
+	private static void arithOperEx1() {
 		int a=7, b=3;
 		
 		// 부호 연산자; +, -
@@ -97,23 +98,23 @@ public class OperatorEx {
 			   // 미세하게 비트 단위 데이터 제어에 활용
 			   byte b1= 0b1101;
 			   byte b2= 0b0111;
-		   System.out.println("b1:" + Integer.toBinaryString(b1)):
-		   System.out.println("b2:" + Integer.toBinaryString(b2)):
+		   System.out.println("b1:" + Integer.toBinaryString(b1));
+		   System.out.println("b2:" + Integer.toBinaryString(b2));
 		   int result = b1&b2;  // 비트 논리곱
-	       System.out.println("b1&b2:" + Integer.toBinaryString(result):
+	       System.out.println("b1&b2:" + Integer.toBinaryString(result));
 	    	   
 		   result = b1||b2; // 비트 논리합
-	       System.out.println("b1||b2:" + Integer.toBinaryString(result):
+	       System.out.println("b1::b2:" + Integer.toBinaryString(result));
 		   
-	       result = ~b1: // 비트 논리부정
-	       System.out.println("~b1:" + Integer.toBinaryString(result):
+	       result = ~b1; // 비트 논리부정
+	       System.out.println("~b1:" + Integer.toBinaryString(result));
 		   
 		   result = b1 ^ b2; // 배타적 논리합
-	       System.out.println("b1^b2:" + Integer.toBinaryString(result):
+	       System.out.println("b1^b2:" + Integer.toBinaryString(result));
 		   
 	    	   
 	    	// 비트 시프트 전산자
-	    	   private static void bitShhiftOperEx() {
+	    	   private static void bitShhiftOperEx(); {
 	    	   // 비트단위로 이동
 	    	   int val=1;
 	    	   // 좌측 시프트(<<)
@@ -125,16 +126,42 @@ public class OperatorEx {
 	    	   // 우측 시프트(>>)
 	    	   val= -2021;
 	    	   System.out.println(Integer.toBinaryString(val>>2)); //우측 2비트
-	    	   System.out.println(Integer.toBinaryString(val);
+	    	   System.out.println(Integer.toBinaryString(val));
 	    	   
 	    	   // 우측 시프트(>>>)
+	    	   val= 2021;
+	    	   System.out.println(Integer.toBinaryString(val));
+	    	   System.out.println(Integer.toBinaryString(val>>>1))
 	    	   
-	       }
+	    	   
+	    	   //3항 연산자
+	    	   private static void conditonalOperEx() {
+	    		   // 문법: 조건식 ? 참일 떄의 값 또는 식 : 거짓일 떄의 값또는 식;
+	    		   int a= 10;
+	    		   String result;
+	    		   
+	    		   // a가 짝수이면 "짝수", 홀수면 "홀수" 출력
+	    		   result = a % 2 == 0 ? "짝수": "홀수";
+	    		   System.out.println(a + "는" + result);
+	    		   
+	    		   int score =60;
+	    		   // 만약 'score'가 80>= Good
+	    		   // 만약 'score'가 50> Pass
+	    		   // 만약 'score'가<50 Fail
+	    		   String message= score>=80 ? "Good!";
+	    		                   score>=50 ? "Pass": "Fail" ;
+	    		   
+	    	   }
 		   }
 		   
 		
 	}
 	
+		
+	}
+
+	private static void bitShiftOperEx() {
+		// TODO Auto-generated method stub
 		
 	}
 
