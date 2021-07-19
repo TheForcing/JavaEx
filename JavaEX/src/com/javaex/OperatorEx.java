@@ -135,7 +135,7 @@ public class OperatorEx {
 	    	   
 	    	   
 	    	   //3항 연산자
-	    	   private static void conditonalOperEx() {
+	    	   private static void conditionalOperEx() {
 	    		   // 문법: 조건식 ? 참일 떄의 값 또는 식 : 거짓일 떄의 값또는 식;
 	    		   int a= 10;
 	    		   String result;
