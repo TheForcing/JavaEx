@@ -8,7 +8,7 @@ public class OperatorEx {
 
 	public static void main(String[] args) {
 		//arithOperEx();
-		bitShiftOperEx();
+
 	}
 	private static void LogicOperEx() {
 		// TODO Auto-generated method stub
@@ -131,7 +131,7 @@ public class OperatorEx {
 	    	   // 우측 시프트(>>>)
 	    	   val= 2021;
 	    	   System.out.println(Integer.toBinaryString(val));
-	    	   System.out.println(Integer.toBinaryString(val>>>1))
+	    	   System.out.println(Integer.toBinaryString(val>>>1));
 	    	   
 	    	   
 	    	   //3항 연산자
@@ -158,20 +158,9 @@ public class OperatorEx {
 	}
 	
 		
-	}
 
-	private static void bitShiftOperEx() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
-	private static void bitOperEx() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private static void arithOperEx() {
-		// TODO Auto-generated method stub
 		
 	}
 	
