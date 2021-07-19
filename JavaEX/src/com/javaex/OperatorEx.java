@@ -1,12 +1,17 @@
 package com.javaex;
 
 public class OperatorEx {
+	public OperatorEx() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public static void main(String[] args) {
 		arithOperEx();
 
 	private static void logicOperEx() {
 		// TODO Auto-generated method stub
-		
+		bitShiftOperEx();
 	}
 	// 산술 연산
 	private static void arithOperEx() {
@@ -106,6 +111,25 @@ public class OperatorEx {
 		   result = b1 ^ b2; // 배타적 논리합
 	       System.out.println("b1^b2:" + Integer.toBinaryString(result):
 		   
+	    	   
+	    	// 비트 시프트 전산자
+	    	   private static void bitShhiftOperEx() {
+	    	   // 비트단위로 이동
+	    	   int val=1;
+	    	   // 좌측 시프트(<<)
+	    	   System.out.println(val);
+	    	   System.out.println(Integer.toBinaryString(val<<1)); //왼쪽 1비트
+	    	   System.out.println(Integer.toBinaryString(val<<4)); //왼쪽 4비트
+	    	   
+	    	   
+	    	   // 우측 시프트(>>)
+	    	   val= -2021;
+	    	   System.out.println(Integer.toBinaryString(val>>2)); //우측 2비트
+	    	   System.out.println(Integer.toBinaryString(val);
+	    	   
+	    	   // 우측 시프트(>>>)
+	    	   
+	       }
 		   }
 		   
 		
